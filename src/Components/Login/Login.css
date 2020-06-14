@@ -36,3 +36,8 @@
   color: white;
   font-weight: 700;
 }
+
+.link-style {
+  text-decoration: underline;
+  color: #323232;
+}

@@ -1,0 +1,26 @@
+ul {
+  list-style-type: circle;
+}
+
+.about-page {
+  height: 91vh;
+  width: 100vw;
+}
+
+.about-title {
+  background-color: var(--dark-bg );
+  width: 25%;
+  margin-bottom: 0;
+}
+
+.about-text {
+  background-color: var(--primary-color );
+  font-size: 18px;
+  flex: 1;
+}
+
+.about-txt-format {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
