@@ -14,12 +14,12 @@ function App() {
     <div className="App">
       <Navbar />
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/cadastrar' component={SignIn} />
-        <Route exact path='/contato' component={Contact} />
-        <Route exact path='/sobre' component={AboutUs} />
-        <Route exact path='/login' component={Login} />
-        <Route exact path='/perfil' component={Profile} />
+        <Route exact path='/coronathon/' component={Home} />
+        <Route exact path='/coronathon/cadastrar' component={SignIn} />
+        <Route exact path='/coronathon/contato' component={Contact} />
+        <Route exact path='/coronathon/sobre' component={AboutUs} />
+        <Route exact path='/coronathon/login' component={Login} />
+        <Route exact path='/coronathon/perfil' component={Profile} />
       </Switch>
     </div>
   );

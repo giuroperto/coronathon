@@ -78,7 +78,7 @@ const Contact =  () => {
                         <p><i className="fas fa-map-marker-alt pr-2"></i>New York, 94126, USA</p>
                       </li>
                       <li>
-                        <p><i className="fas fa-phone pr-2"></i>+ 01 234 567 89</p>
+                        <p><i className="fas fa-phone pr-2"></i>158</p>
                       </li>
                       <li>
                         <p><i className="fas fa-envelope pr-2"></i>contact@example.com</p>

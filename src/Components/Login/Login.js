@@ -23,12 +23,12 @@ const Login =  () => {
             </div>
             <div className='d-flex flex-column align-items-center'>
               <Link>Esqueceu sua senha?</Link>
-              <Link to='/perfil'><button className='my-4 login-button'>ENTRAR</button></Link>
+              <Link to='/coronathon/perfil'><button className='my-4 login-button'>ENTRAR</button></Link>
             </div>
           </form>
           <div className='d-flex flex-column'>
             <p className='m-0'>Ainda não é cadastrado?</p>
-            <Link to='/cadastrar'>Cadastre-se já!</Link>
+            <Link to='/coronathon/cadastrar'>Cadastre-se já!</Link>
           </div>
         </div>
       </div>
