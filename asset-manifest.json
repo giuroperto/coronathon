@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coronathon/static/css/main.56122262.chunk.css",
+    "main.css": "/coronathon/static/css/main.5fb4607f.chunk.css",
     "main.js": "/coronathon/static/js/main.f36051c1.chunk.js",
     "main.js.map": "/coronathon/static/js/main.f36051c1.chunk.js.map",
     "runtime-main.js": "/coronathon/static/js/runtime-main.5a9da991.js",
@@ -9,17 +9,17 @@
     "static/js/2.f75764ea.chunk.js": "/coronathon/static/js/2.f75764ea.chunk.js",
     "static/js/2.f75764ea.chunk.js.map": "/coronathon/static/js/2.f75764ea.chunk.js.map",
     "index.html": "/coronathon/index.html",
-    "precache-manifest.da5f060648c22d77c4d452eec3b1ded9.js": "/coronathon/precache-manifest.da5f060648c22d77c4d452eec3b1ded9.js",
+    "precache-manifest.fc8e241c6961be34ed9d89552a65cfdd.js": "/coronathon/precache-manifest.fc8e241c6961be34ed9d89552a65cfdd.js",
     "service-worker.js": "/coronathon/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/coronathon/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.56122262.chunk.css.map": "/coronathon/static/css/main.56122262.chunk.css.map",
+    "static/css/main.5fb4607f.chunk.css.map": "/coronathon/static/css/main.5fb4607f.chunk.css.map",
     "static/js/2.f75764ea.chunk.js.LICENSE.txt": "/coronathon/static/js/2.f75764ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a9da991.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.f75764ea.chunk.js",
-    "static/css/main.56122262.chunk.css",
+    "static/css/main.5fb4607f.chunk.css",
     "static/js/main.f36051c1.chunk.js"
   ]
 }
