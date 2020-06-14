@@ -12,7 +12,7 @@ const Home =  () => {
         </div>
         <div className="home-buttons">
           <Link to='/coronathon/cadastrar'><button className='btn btn-style'>SOU TRABALHADOR</button></Link>
-          <a href='https://empregabrasil.mte.gov.br/' target='_blank'><button className='btn btn-style'>SOU EMPREGADOR</button></a>
+          <a href='https://empregabrasil.mte.gov.br/' target='_blank' rel="noopener noreferrer"><button className='btn btn-style'>SOU EMPREGADOR</button></a>
         </div>
       </div>
     </>

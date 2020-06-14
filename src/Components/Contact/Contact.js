@@ -12,37 +12,26 @@ const Contact =  () => {
         </div>
         <div className="container my-5">
           <section className="contact-section dark-grey-text mb-5">
-            
             <div className="card">
-
               <div className="row">
-
                 <div className="col-lg-8">
-
                   <div className="card-body form">
-
                     <h3 className="font-weight-bold dark-grey-text mt-4"><i className="fas fa-envelope pr-2 mr-1"></i>Escreva para a gente:</h3>
-
                     <div className="row">
-
                       <div className="col-md-6">
                         <div className="md-form mb-0">
                           <input type="text" id="form-contact-name" className="form-control" />
                           <label for="form-contact-name" className="">Nome</label>
                         </div>
                       </div>
-
                       <div className="col-md-6">
                         <div className="md-form mb-0">
                           <input type="text" id="form-contact-email" className="form-control" />
                           <label for="form-contact-email" className="">E-mail</label>
                         </div>
                       </div>
-
                     </div>
-
                     <div className="row">
-
                       <div>
                         <input type="text" id="form-contact-subject" className="form-control" />
                           <label for="form-contact-subject" className="">Assunto</label>
@@ -75,34 +64,13 @@ const Contact =  () => {
                     <h3 className="font-weight-bold my-4 pb-2">Informações para Contato</h3>
                     <ul className="text-lg-left list-unstyled ml-4">
                       <li>
-                        <p><i className="fas fa-map-marker-alt pr-2"></i>New York, 94126, USA</p>
+                        <p>Ligue para nossa central:<span> 158</span></p>
                       </li>
                       <li>
-                        <p><i className="fas fa-phone pr-2"></i>158</p>
-                      </li>
-                      <li>
-                        <p><i className="fas fa-envelope pr-2"></i>contact@example.com</p>
+                        <p>Localize a rede de atendimento mais perto de você:</p>
+                        <a href='http://trabalho.gov.br/rede-de-atendimento'>http://trabalho.gov.br/rede-de-atendimento</a>
                       </li>
                     </ul>
-                    <hr className="hr-light my-4" />
-                    <ul className="list-inline text-center list-unstyled">
-                      <li className="list-inline-item">
-                        <a className="p-2 fa-lg tw-ic">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a className="p-2 fa-lg li-ic">
-                          <i className="fab fa-linkedin-in"> </i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a className="p-2 fa-lg ins-ic">
-                          <i className="fab fa-instagram"> </i>
-                        </a>
-                      </li>
-                    </ul>
-
                   </div>
 
                 </div>
