@@ -5,7 +5,7 @@ const Contact =  () => {
   return (
     <>
       <hr className='green-bar m-0'></hr>
-      <div className='contact-page'>
+      <div className='contact-page pb-5'>
         <div className ='contact-info d-flex flex-column align-items-start'>
           <h2 className='all-titles'>CONTATO</h2>
           <p className='all-text'>Em caso de dúvidas, sugestões ou reclamações, entre em contato conosco!</p>
@@ -67,8 +67,10 @@ const Contact =  () => {
                         <div className='telefone'>158</div>
                       </li>
                       <li>
+                      <div className='d-flex flex-column align-items-center'>
                         <p>Ou localize a rede de atendimento mais perto de você:</p>
-                        <a href='http://trabalho.gov.br/rede-de-atendimento'>http://trabalho.gov.br/rede-de-atendimento</a>
+                        <a className='btn btn-style btn-search' href='http://trabalho.gov.br/rede-de-atendimento'>PROCURAR</a>
+                      </div>
                       </li>
                     </ul>
                   </div>

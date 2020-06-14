@@ -18,3 +18,9 @@
   text-align: center;
   margin-bottom: 10px;
 }
+
+.btn-search {
+  width: 150px !important;
+  font-size: 18px !important;
+  height: 40px;
+}

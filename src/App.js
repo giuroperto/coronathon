@@ -8,6 +8,7 @@ import Login from './Components/Login/Login';
 import Profile from './Components/Profile/Profile';
 import SignIn from './Components/SignIn/SignIn';
 import Navbar from './Components/Navbar/Navbar';
+import Qualification from './Components/Qualification/Qualification';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/coronathon/sobre' component={AboutUs} />
         <Route exact path='/coronathon/login' component={Login} />
         <Route exact path='/coronathon/perfil' component={Profile} />
+        <Route exact path='/coronathon/indicacoes' component={Qualification} />
       </Switch>
     </div>
   );

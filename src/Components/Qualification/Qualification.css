@@ -1,0 +1,37 @@
+.quali-page {
+  background-color: var(--dark-bg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.green-ball {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  height: 100px;
+  width: 100px;
+}
+
+.quali-text {
+  color: white;
+}
+
+.quali-title {
+  font-size: 26px;
+}
+
+.quali-course {
+  font-size: 18px;
+}
+
+.quali-link {
+  font-size: 14px;
+}
+
+.quali-topics {
+  width: 35vw;
+}
+
+.title-size {
+  width: 200px;
+  padding-left: 85px;
+}
