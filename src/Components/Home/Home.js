@@ -7,8 +7,8 @@ const Home =  () => {
     <>
       <div className='home-page d-flex flex-column justify-content-center'>
         <div className='home-info'>
-          <h1 className='text-bold home-title'>EMPREGA BRASIL</h1>
-          <p className='home-text'>O sine.com.br acabou. Com isso, nasceu o Trabalha Brasil. Entre no maior portal de empregos do país!</p>
+          <h1 className='text-bold home-title'>HABILITAS</h1>
+          <p className='home-text'>O sine.com.br acabou. Com isso, nasceu o Habilitas. Entre no maior portal de empregos do país!</p>
         </div>
         <div className="home-buttons">
           <Link to='/coronathon/cadastrar'><button className='btn btn-style'>SOU TRABALHADOR</button></Link>

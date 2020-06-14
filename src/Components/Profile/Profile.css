@@ -1,0 +1,62 @@
+.profile-page {
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+.profile-header {
+  background-color: var(--primary-color);
+  width: 30%;
+}
+
+.profile-title {
+  color: var(--dark-bg);
+  font-weight: 700;
+  font-size: 60px;
+  width: 200px;
+  text-align: left;
+}
+
+.profile-infos {
+  background-color: #2e2e2e;
+  flex: 1;
+  padding: 40px 80px;
+}
+
+.white-text {
+  color: white;
+}
+
+.profile-img {
+  width: 250px;
+}
+
+.sml-txt {
+  font-size: 15px;
+  text-align: center;
+}
+
+.smlr-txt {
+  font-size: 12px;
+}
+
+.rgl-txt {
+  font-size: 18px;
+  text-align: left;
+}
+
+.lg-txt {
+  font-size: 22px;
+  text-align: left;
+}
+
+.personal-info p {
+  text-align: left;
+}
+
+.profile-card {
+  width: 350px;
+}
+
+.txt-width {
+  width: 300px;
+}
