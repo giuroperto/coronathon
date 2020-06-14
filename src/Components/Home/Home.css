@@ -1,0 +1,44 @@
+.btn-style {
+  background-color: var(--primary-color) !important;
+  border: black;
+  color: black;
+  margin-right: 40px;
+  font-weight: bold !important;
+  width: 306px;
+  height: 53px;
+  font-size: 24px !important;
+}
+
+.btn-style:hover {
+  background-color: rgba(215, 253, 53, 0.7) !important;
+}
+
+.home-page {
+  background-image: url('/WhatsApp\ Image\ 2020-06-13\ at\ 22.30.33.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+}
+
+.home-info {
+  width: 50%;
+  margin-left: 76px;
+}
+
+.home-title {
+  color: white;
+  font-size: 96px;
+  text-align: left;
+}
+
+.home-text {
+  text-align: left;
+  font-size: 22px;
+  color: var(--primary-color);
+  margin-top: 20px;
+}
+
+.home-buttons {
+  margin: 80px auto 0;
+}

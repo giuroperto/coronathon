@@ -1,0 +1,17 @@
+nav {
+  height: 60px;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0 60px;
+}
+
+.bg-navbar {
+  background-color: var(--dark-bg) !important;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: end;
+}

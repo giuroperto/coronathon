@@ -1,0 +1,9 @@
+.contact-page {
+  background-color: var(--dark-bg);
+  height: 92vh;
+}
+
+.contact-info {
+  margin-left: 70px;
+  padding-top: 30px;
+}

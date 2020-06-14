@@ -1,0 +1,38 @@
+.login-page {
+  background-color: var(--dark-bg);
+  height: 91vh;
+}
+
+.login-bg {
+  background-color: var(--primary-color);
+  height: 91vh;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.login-title {
+  font-size: 76px;
+  font-weight: 700;
+}
+
+.login-text {
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-fields {
+  font-size: 20px;
+}
+
+.input-width {
+  width: 338px;
+}
+
+.login-button {
+  width: 338px;
+  height: 43px;
+  background-color: var(--dark-bg);
+  color: white;
+  font-weight: 700;
+}
