@@ -12,140 +12,93 @@ class Step3 extends Component {
 
     return(
       <>
-      <div className="form-group all-sections d-flex flex-column align-items-center">
-        <div className='d-flex mb-3'>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field' htmlFor="name">Nome Completo*</label>
+      <div className="form-group all-sections section-3">
+        <h2 className='mb-4'>Última Experiência Profissional</h2>
+        <div className='form-row mb-3'>
+          <div className='form-group col-md-6'>
+            <label className='form-field' htmlFor="company">Empresa*</label>
             <input
-              className="form-control"
-              id="name"
-              name="name"
+              className='form-control'
+              id="company"
+              name="company"
               type="text"
               required
             />
           </div>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="birth">Data de Nascimento*</label>
+          <div className='form-group col-md-3'>
+            <label className='form-field'  htmlFor="start-date">Data Inicial*</label>
             <input
-              className="form-control"
-              id="birth"
-              name="birth"
+              className='form-control'
+              id="start-date"
+              name="start-date"
               type="date"
               required
             />
           </div>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="cpf">CPF*</label>
+          <div className='form-group col-md-3'>
+            <label className='form-field'  htmlFor="end-date">Data Final*</label>
             <input
-              className="form-control"
-              id="cpf"
-              name="cpf"
-              type="number"
-              required
-            />
-          </div>
-          <div className='d-flex flex-column'>
-            <label className='form-field'  htmlFor="cpf">RG*</label>
-            <input
-              className="form-control"
-              id="rg"
-              name="rg"
-              type="number"
+              className='form-control'
+              id="end-date"
+              name="end-date"
+              type="date"
               required
             />
           </div>
         </div>
-        <div className='d-flex mb-3'>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="email">E-mail*</label>
-            <input
-              className="form-control"
-              id="email"
-              name="email"
-              type="email"
-              required
-            />
+        <div className='form-row mb-3'>
+          <div className='form-group col-md-6'>
+            <label className='form-field'  htmlFor="company-sector">Setor da Empresa*</label>
+            <select
+              id="company-sector"
+              className='form-control'
+              name="company-sector"
+              required>
+              <option selected>Choose...</option>
+              <option value="varejo-alimentos">Varejo de Alimentos</option>
+              <option value="alimentos-bebidas">Alimentos e Bebidas</option>
+              <option value="industria">Indústria</option>
+              <option value="saude">Saúde</option>
+              <option value="cosmeticos">Cosméticos</option>
+              <option value="moda">Moda</option>
+              <option value="atacado-varejo">Atacado e Varejo</option>
+              <option value="varejo-automotivo">Varejo Automotivo</option>
+              <option value="servicos-automotivos">Serviços Automotivos</option>
+              <option value="servicos">Serviços</option>
+              <option value="financeiro">Financeiro</option>
+              <option value="imobiliario">Imobiliário</option>
+              <option value="tecnologia">Tecnologia</option>
+            </select>
           </div>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="tel">Telefone</label>
+          <div className='form-group col-md-6'>
+            <label className='form-field'  htmlFor="occupation">Função*</label>
             <input
-              className="form-control"
-              id="tel"
-              name="tel"
-              type="tel"
-            />
-          </div>
-          <div className='d-flex flex-column'>
-            <label className='form-field'  htmlFor="impairment">Possui deficiência*</label>
-            <input
-              className="form-control"
-              id="impairment"
-              name="impairment"
-              type="impairment"
+              className='form-control'
+              id="occupation"
+              name="occupation"
+              type="text"
               required
             />
           </div>
         </div>
-        <div className='d-flex mb-3'>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="cep">CEP*</label>
-            <input
-              className="form-control"
-              id="cep"
-              name="cep"
-              type="number"
+        <div className='form-row mb-3'>
+          <div className='form-group mr-4 col-md-12'>
+            <label className='form-field'  htmlFor="activities">Atividades*</label>
+            <textarea
+              className='form-control'
+              id="activities"
+              name="activities"
               required
-            />
-          </div>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="address">Endereço*</label>
-            <input
-              className="form-control"
-              id="address"
-              name="address"
-              type="text"
-              required
-            />
-          </div>
-          <div className='d-flex flex-column'>
-            <label className='form-field'  htmlFor="complemento">Complemento</label>
-            <input
-              className="form-control"
-              id="complemento"
-              name="complemento"
-              type="text"
             />
           </div>
         </div>
-        <div className='d-flex'>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="nationality">Nacionalidade*</label>
-            <input
-              className="form-control"
-              id="nationality"
-              name="nationality"
-              type="text"
-              required
-            />
-          </div>
-          <div className='d-flex flex-column mr-4'>
-            <label className='form-field'  htmlFor="state">Estado*</label>
-            <input
-              className="form-control"
-              id="state"
-              name="state"
-              type="text"
-              required
-            />
-          </div>
-          <div className='d-flex flex-column'>
-            <label className='form-field'  htmlFor="city">Cidade*</label>
-            <input
-              className="form-control"
-              id="city"
-              name="city"
-              type="text"
-              required
+        <div className='form-row'>
+          <div className='form-group mr-4 col-md-12'>
+            <label className='form-field'  htmlFor="tools">Ferramentas e Plataformas Utilizadas</label>
+            <textarea
+              className='form-control'
+              id="tools"
+              name="tools"
             />
           </div>
         </div>
