@@ -22,10 +22,7 @@
 
 .all-sections {
   width: 100%;
-}
-
-.section-1 {
-
+  padding: 10px 80px;
 }
 
 .green-bar {
@@ -35,4 +32,13 @@
 
 .form-field {
   font-size: 16px;
+  text-align: left;
+}
+
+.form-texts {
+  margin: 10px 60px;
+}
+
+.lg-width {
+  width: 200px;
 }

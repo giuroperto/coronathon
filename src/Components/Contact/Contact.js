@@ -58,7 +58,7 @@ const Contact =  () => {
 
                 <div className="col-lg-4">
 
-                  <div className="card-body contact text-center h-100 white-text">
+                  <div className="card-body contact text-center h-100">
 
                     <h3 className="font-weight-bold my-4 pb-2">Informações para Contato</h3>
                     <ul className="text-lg-left list-unstyled ml-4">

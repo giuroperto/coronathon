@@ -12,10 +12,10 @@ class Step4 extends Component {
 
     return(
       <>
-      <div className="form-group all-sections d-flex flex-column">
-        <div className='section-1 d-flex'>
-          <div className='d-flex flex-column'>
-            <label htmlFor="name">Nome Completo*</label>
+      <div className="form-group all-sections d-flex flex-column align-items-center">
+        <div className='d-flex mb-3'>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field' htmlFor="name">Nome Completo*</label>
             <input
               className="form-control"
               id="name"
@@ -24,8 +24,8 @@ class Step4 extends Component {
               required
             />
           </div>
-          <div className='d-flex flex-column'>
-            <label htmlFor="birth">Data de Nascimento*</label>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="birth">Data de Nascimento*</label>
             <input
               className="form-control"
               id="birth"
@@ -34,8 +34,8 @@ class Step4 extends Component {
               required
             />
           </div>
-          <div className='d-flex flex-column'>
-            <label htmlFor="cpf">CPF*</label>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="cpf">CPF*</label>
             <input
               className="form-control"
               id="cpf"
@@ -45,7 +45,7 @@ class Step4 extends Component {
             />
           </div>
           <div className='d-flex flex-column'>
-            <label htmlFor="cpf">RG*</label>
+            <label className='form-field'  htmlFor="cpf">RG*</label>
             <input
               className="form-control"
               id="rg"
@@ -55,9 +55,9 @@ class Step4 extends Component {
             />
           </div>
         </div>
-        <div>
-          <div className='d-flex flex-column'>
-            <label htmlFor="email">E-mail*</label>
+        <div className='d-flex mb-3'>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="email">E-mail*</label>
             <input
               className="form-control"
               id="email"
@@ -66,10 +66,29 @@ class Step4 extends Component {
               required
             />
           </div>
-        </div>
-        <div className='d-flex'>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="tel">Telefone</label>
+            <input
+              className="form-control"
+              id="tel"
+              name="tel"
+              type="tel"
+            />
+          </div>
           <div className='d-flex flex-column'>
-            <label htmlFor="cep">CEP*</label>
+            <label className='form-field'  htmlFor="impairment">Possui deficiência*</label>
+            <input
+              className="form-control"
+              id="impairment"
+              name="impairment"
+              type="impairment"
+              required
+            />
+          </div>
+        </div>
+        <div className='d-flex mb-3'>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="cep">CEP*</label>
             <input
               className="form-control"
               id="cep"
@@ -78,8 +97,8 @@ class Step4 extends Component {
               required
             />
           </div>
-          <div className='d-flex flex-column'>
-            <label htmlFor="address">Endereço*</label>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="address">Endereço*</label>
             <input
               className="form-control"
               id="address"
@@ -89,7 +108,7 @@ class Step4 extends Component {
             />
           </div>
           <div className='d-flex flex-column'>
-            <label htmlFor="complemento">Complemento</label>
+            <label className='form-field'  htmlFor="complemento">Complemento</label>
             <input
               className="form-control"
               id="complemento"
@@ -99,8 +118,8 @@ class Step4 extends Component {
           </div>
         </div>
         <div className='d-flex'>
-          <div className='d-flex flex-column'>
-            <label htmlFor="nationality">Nacionalidade*</label>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="nationality">Nacionalidade*</label>
             <input
               className="form-control"
               id="nationality"
@@ -109,8 +128,8 @@ class Step4 extends Component {
               required
             />
           </div>
-          <div className='d-flex flex-column'>
-            <label htmlFor="state">Estado*</label>
+          <div className='d-flex flex-column mr-4'>
+            <label className='form-field'  htmlFor="state">Estado*</label>
             <input
               className="form-control"
               id="state"
@@ -120,7 +139,7 @@ class Step4 extends Component {
             />
           </div>
           <div className='d-flex flex-column'>
-            <label htmlFor="city">Cidade*</label>
+            <label className='form-field'  htmlFor="city">Cidade*</label>
             <input
               className="form-control"
               id="city"
@@ -130,6 +149,7 @@ class Step4 extends Component {
             />
           </div>
         </div>
+        <button className='btn btn-style mt-5'>SALVAR</button>
       </div>
       </>
     )
