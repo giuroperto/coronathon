@@ -57,7 +57,6 @@ class Step2 extends Component {
                   name="industria"
                   type="checkbox"
                   value="industria"
-                  required
                 />
                 <label htmlFor="industria" className='ml-2'>Indústria</label>
               </div>
@@ -67,7 +66,6 @@ class Step2 extends Component {
                   name="saude"
                   type="checkbox"
                   value="saude"
-                  required
                 />
                 <label htmlFor="saude" className='ml-2'>Saúde</label>
               </div>
@@ -77,7 +75,6 @@ class Step2 extends Component {
                   name="cosmeticos"
                   type="checkbox"
                   value="cosmeticos"
-                  required
                 />
                 <label htmlFor="cosmeticos" className='ml-2'>Cosméticos</label>
               </div>
@@ -87,7 +84,6 @@ class Step2 extends Component {
                   name="moda"
                   type="checkbox"
                   value="moda"
-                  required
                 />
                 <label htmlFor="moda" className='ml-2'>Moda</label>
               </div>
@@ -97,7 +93,6 @@ class Step2 extends Component {
                 name="servicos"
                 type="checkbox"
                 value="servicos"
-                required
               />
               <label htmlFor="servicos" className='ml-2'>Serviços</label>
             </div>
@@ -107,7 +102,6 @@ class Step2 extends Component {
                 name="financeiro"
                 type="checkbox"
                 value="financeiro"
-                required
               />
               <label htmlFor="financeiro" className='ml-2'>Financeiro</label>
             </div>
@@ -117,7 +111,6 @@ class Step2 extends Component {
                 name="imobiliario"
                 type="checkbox"
                 value="imobiliario"
-                required
               />
               <label htmlFor="imobiliario" className='ml-2'>Imobiliário</label>
             </div>
@@ -127,7 +120,6 @@ class Step2 extends Component {
                 name="tecnologia"
                 type="checkbox"
                 value="tecnologia"
-                required
               />
               <label htmlFor="tecnologia" className='ml-2'>Tecnologia</label>
             </div>
@@ -142,7 +134,6 @@ class Step2 extends Component {
                   name="logistica"
                   type="checkbox"
                   value="logistica"
-                  required
                 />
                 <label htmlFor="logistica" className='ml-2'>Logística</label>
               </div>
@@ -152,7 +143,6 @@ class Step2 extends Component {
                   name="comercial"
                   type="checkbox"
                   value="comercial"
-                  required
                 />
                 <label htmlFor="comercial" className='ml-2'>Comercial</label>
               </div>
@@ -162,7 +152,6 @@ class Step2 extends Component {
                   name="financeiro"
                   type="checkbox"
                   value="financeiro"
-                  required
                 />
                 <label htmlFor="financeiro" className='ml-2'>Financeiro</label>
               </div>
@@ -172,7 +161,6 @@ class Step2 extends Component {
                   name="tecnologia"
                   type="checkbox"
                   value="tecnologia"
-                  required
                 />
                 <label htmlFor="tecnologia" className='ml-2'>Tecnologia</label>
               </div>
@@ -182,7 +170,6 @@ class Step2 extends Component {
                   name="rh"
                   type="checkbox"
                   value="rh"
-                  required
                 />
                 <label htmlFor="rh" className='ml-2'>RH</label>
               </div>
@@ -192,7 +179,6 @@ class Step2 extends Component {
                   name="processos"
                   type="checkbox"
                   value="processos"
-                  required
                 />
                 <label htmlFor="processos" className='ml-2'>Processos</label>
               </div>
@@ -202,7 +188,6 @@ class Step2 extends Component {
                   name="projetos"
                   type="checkbox"
                   value="projetos"
-                  required
                 />
                 <label htmlFor="projetos" className='ml-2'>Projetos</label>
               </div>
@@ -212,7 +197,6 @@ class Step2 extends Component {
                   name="operacoes"
                   type="checkbox"
                   value="operacoes"
-                  required
                 />
                 <label htmlFor="operacoes" className='ml-2'>Operações</label>
               </div>
@@ -222,7 +206,6 @@ class Step2 extends Component {
                   name="juridico"
                   type="checkbox"
                   value="juridico"
-                  required
                 />
                 <label htmlFor="juridico" className='ml-2'>Jurídico</label>
               </div>
@@ -232,7 +215,6 @@ class Step2 extends Component {
                   name="administrativo"
                   type="checkbox"
                   value="administrativo"
-                  required
                 />
                 <label htmlFor="administrativo" className='ml-2'>Administrativo</label>
               </div>
@@ -242,7 +224,6 @@ class Step2 extends Component {
                   name="marketing"
                   type="checkbox"
                   value="marketing"
-                  required
                 />
                 <label htmlFor="marketing" className='ml-2'>Marketing</label>
               </div>
@@ -256,18 +237,3 @@ class Step2 extends Component {
 }
 
 export default Step2;
-
-
-
-{/* <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-    Default checkbox
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-  <label class="form-check-label" for="defaultCheck2">
-    Disabled checkbox
-  </label>
-</div> */}
