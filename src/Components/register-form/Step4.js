@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 class Step4 extends Component {
   constructor(props) {
@@ -117,7 +118,7 @@ class Step4 extends Component {
             </div>
           </div>
         </div>
-        <button className='btn btn-style mt-5'>SALVAR</button>
+        <Link to='/coronathon/perfil'><button className='btn btn-style mt-5'>SALVAR</button></Link>
       </div>
       </>
     )
