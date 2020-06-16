@@ -5,9 +5,9 @@
 
 .login-bg {
   background-color: var(--primary-color);
-  height: 91vh;
   width: 50%;
   margin: 0 auto;
+  height: 91vh;
 }
 
 .login-title {
@@ -40,4 +40,9 @@
 .link-style {
   text-decoration: underline;
   color: #323232;
+}
+
+.comment {
+  font-size: 10px;
+  font-style: italic;
 }

@@ -7,10 +7,11 @@ const Login =  () => {
     <>
       <hr className='green-bar m-0'></hr>
       <div className='login-page'>
-        <div className="login-bg pt-5 d-flex flex-column">
+        <div className="login-bg pt-2 d-flex flex-column">
           <div className='pt-3'>
             <h2 className='login-title pb-4'>LOGIN</h2>
-            <p className='login-text pb-4'>Caso já tenha cadastro, insira suas informações abaixo.</p>
+            <p className='login-text pb-3'>Caso já tenha cadastro, insira suas informações abaixo.<p className='comment'>(Não precisa inserir nenhum dado para prosseguir)</p></p>
+            
           </div>
           <form>
             <div className='mb-3 d-flex flex-column align-items-center'>
