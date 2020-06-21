@@ -1,6 +1,8 @@
 ![AppVeyor](https://img.shields.io/appveyor/build/giuroperto/coronathon)
 ![GitHub top language](https://img.shields.io/github/languages/top/giuroperto/coronathon)
-![Packagist License](https://img.shields.io/packagist/l/giuroperto/coronathon)
+[![GitHub license](https://img.shields.io/github/license/giuroperto/coronathon)](https://github.com/giuroperto/coronathon/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/giuroperto/coronathon)](https://github.com/giuroperto/coronathon/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/giuroperto/coronathon)](https://github.com/giuroperto/coronathon/network)
 
 # HABILITAS (PROTOTYPE)
 Habilitas is a **tool to help people who lost their jobs during the COVID pandemy** who are now facing challenges to find a new one. We aim to provide a high quality platform where they can take use technology in their favour to expand their opportunities and leverage their capabilities as a professional. 
