@@ -1,3 +1,7 @@
+![AppVeyor](https://img.shields.io/appveyor/build/giuroperto/coronathon)
+![GitHub top language](https://img.shields.io/github/languages/top/giuroperto/coronathon)
+![Packagist License](https://img.shields.io/packagist/l/giuroperto/coronathon)
+
 # HABILITAS (PROTOTYPE)
 Habilitas is a **tool to help people who lost their jobs during the COVID pandemy** who are now facing challenges to find a new one. We aim to provide a high quality platform where they can take use technology in their favour to expand their opportunities and leverage their capabilities as a professional. 
 
@@ -55,12 +59,5 @@ Habilitas consists in a platform that connects people looking for jobs and the c
 
 Habilitas was created by:
 
-- [**Ailton Junior**](https://www.linkedin.com/in/ailton-oliveira-jr/)
-
-- [**Giulia Roperto**](https://www.linkedin.com/in/giuliaroperto/)
-
-- [**Hugo Habl**](https://www.linkedin.com/in/hugo-habl/)
-
-- [**Luiza Guerra Melo**](https://www.linkedin.com/in/luiza-meloo/)
-
-- [**Vinícius Salinas**](https://www.linkedin.com/in/vinicius-salinas/)
+|<img src="https://media-exp1.licdn.com/dms/image/C4E03AQHqXZ49koDbGw/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=mjpEQ8aeKR2vn78m4irHdYE0xnCVlDVaNWitY-fbbXM" width="115"><br/> [**Ailton Junior**](https://www.linkedin.com/in/ailton-oliveira-jr/) |<img src="https://media-exp1.licdn.com/dms/image/C4D03AQEidRW39hPwvA/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=GrV9ioZBp9uyX3Zz7uj_uC-FY-wVuOTspSB8dRRCWUU" width="115"><br/> [**Giulia Roperto**](https://www.linkedin.com/in/giuliaroperto/) |<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFfqw6srZSseA/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=wfs1wqPzJqDVzOM8EupZydLhObzkMCN9Uv5ImgPhzyU" width="115"><br/> [**Hugo Habl**](https://www.linkedin.com/in/hugo-habl/) |<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFvVTS_LxXEpA/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=xneWwfxwp4JeTs0XwTtuOgT8-hsw31Nv8iNNOXP977k" width="115"><br/> [**Luiza Guerra Melo**](https://www.linkedin.com/in/luiza-meloo/) |<img src="https://media-exp1.licdn.com/dms/image/C4D03AQHinh-R2X_Qkg/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=-vPNDnJtNhFN28M8ElRoumQux1K8wJ_jxZ1DNYGpsUg" width="115"><br/> [**Vinícius Salinas**](https://www.linkedin.com/in/vinicius-salinas/) |
+|---|---|---|---|---|
